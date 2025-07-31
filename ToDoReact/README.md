@@ -1,12 +1,42 @@
-# React + Vite
+# ✅ ToDo List em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples de **Lista de Tarefas** desenvolvida com **React**, focada no aprendizado de conceitos essenciais como estado, componentes, props e manipulação de eventos. Ideal para quem está começando na biblioteca!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Objetivo do Projeto
 
-## Expanding the ESLint configuration
+Ajudar novos desenvolvedores a entender como criar, listar e manipular dados em tempo real usando o React de forma clara e objetiva. O foco aqui é o raciocínio e não o design elaborado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Adicionar novas tarefas com uma categoria  
+- ✅ Marcar tarefas como concluídas (com riscado visual)  
+- ❌ Remover tarefas da lista  
+- 🧩 Componentes organizados (Todo, TodoForm)  
+- 🧠 Uso de `useState` para manipulação do estado  
+- 💡 Exemplo prático de CRUD no front-end (sem backend)
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+- [React.js](https://reactjs.org/)
+- JavaScript ES6+
+- CSS
+- Vite ou Create React App (dependendo da configuração usada)
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+ToDoReact/
+├── src/
+│ ├── components/
+│ │ ├── Todo.jsx # Item de tarefa individual
+│ │ └── TodoForm.jsx # Formulário para adicionar nova tarefa
+│ ├── App.jsx # Componente principal que organiza tudo
+│ ├── App.css # Estilização da aplicação
+├── package.json # Dependências e scripts

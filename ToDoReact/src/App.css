@@ -63,11 +63,11 @@ input, select{
 }
 
 .complete{
-  background-color: #5cb85c;
+  background-color: green;
 }
 
 .remove{
-  background-color: #D9534F;
+  background-color: red;
 }
 
 .todo-list{

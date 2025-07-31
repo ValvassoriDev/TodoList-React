@@ -1,10 +1,19 @@
 import React from "react";
 
+const categoryColors ={
+  Trabalho: "#f3a806b7",
+  Pessoal: "#d310a9c9",
+  Estudos: "#23d6f5cc",
+}
+
 const Todo = ({ todo, removeTodo, completeTodo }) => {
+
+  const bgColor =categoryColors[todo.category] || "#ccc"
+
   return (
     <div
       className="todo"
-      style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
+      style={{background: bgColor, textDecoration: todo.isCompleted ? "line-through" : "" }}
     >
       <div className="content">
         <p>{todo.text}</p>
